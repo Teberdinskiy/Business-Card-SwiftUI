@@ -13,11 +13,25 @@ struct ContentView: View {
         ZStack {
             Color(red: 0.09, green: 0.63, blue: 0.52)
                 .edgesIgnoringSafeArea(.all)
-            Text("Alikhan Batchaev")
-                .font(Font.custom("Pacifico-Regular", size: 40))
-                .bold()
-                .foregroundColor(.white)
-                .multilineTextAlignment(.center)
+            VStack {
+                Image("Baby Darth Vader")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 200, height: 200)
+                    .clipShape(Circle())
+                    .overlay(
+                        Circle().stroke(Color.white, lineWidth: 5)
+                )
+                Text("Alikhan Batchaev")
+                    .font(Font.custom("Pacifico-Regular", size: 40))
+                    .bold()
+                    .foregroundColor(.white)
+                    .multilineTextAlignment(.center)
+                Text("iOS Developer")
+                    .foregroundColor(.white)
+                    .font(.system(size: 25))
+                
+            }
         }
     }
 }

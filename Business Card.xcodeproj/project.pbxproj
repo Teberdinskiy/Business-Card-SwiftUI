@@ -14,6 +14,7 @@
 		98479159240040E2003259C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98479158240040E2003259C2 /* Preview Assets.xcassets */; };
 		9847915C240040E2003259C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9847915A240040E2003259C2 /* LaunchScreen.storyboard */; };
 		9847916524004559003259C2 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9847916424004559003259C2 /* Pacifico-Regular.ttf */; };
+		984791672400579B003259C2 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984791662400579B003259C2 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9847915B240040E2003259C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9847915D240040E2003259C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9847916424004559003259C2 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		984791662400579B003259C2 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				9847914F240040DC003259C2 /* AppDelegate.swift */,
 				98479151240040DC003259C2 /* SceneDelegate.swift */,
 				98479153240040DC003259C2 /* ContentView.swift */,
+				984791662400579B003259C2 /* InfoView.swift */,
 				98479155240040E2003259C2 /* Assets.xcassets */,
 				9847915A240040E2003259C2 /* LaunchScreen.storyboard */,
 				9847915D240040E2003259C2 /* Info.plist */,
@@ -158,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				984791672400579B003259C2 /* InfoView.swift in Sources */,
 				98479150240040DC003259C2 /* AppDelegate.swift in Sources */,
 				98479152240040DC003259C2 /* SceneDelegate.swift in Sources */,
 				98479154240040DC003259C2 /* ContentView.swift in Sources */,
